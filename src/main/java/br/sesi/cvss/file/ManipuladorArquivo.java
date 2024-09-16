@@ -18,7 +18,7 @@ public class ManipuladorArquivo {
             }
             linha = reader.readLine();
             String regex;
-            pessoas = linha.split(regex: "||")
+            pessoas = linha.split( "||");
         }
         reader.close();
     }
